@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    margin:0;
+}
+
+.container {
+    display: flex;
+
+    width: 200vw;
+}
+
+.box {
+    width:50vw;
+}
+
+.one {
+    background-color: aquamarine;
+    flex-direction: row;
+    overflow:y;
+    height:100vh;
+}
+
+.two {
+    background-color: cadetblue;
+    flex-direction: row;
+    overflow:y;
+    height:100vh;
+}
+
+.three {
+    background-color: goldenrod;
+    flex-direction:column;
+    height:200vh;
+    overflow:y;
+}
+
+.four {
+    background-color: mediumseagreen;
+    flex-direction: row;
+    overflow:y;
+    height:100vh;
+}
