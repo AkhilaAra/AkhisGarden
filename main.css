@@ -13,37 +13,46 @@ body {
 .container {
     display: flex;
 
-    width: 200vw;
+    width: 400vw;
+
+    overflow:y;
 }
 
 .box {
     width:50vw;
+    overflow-y:auto;
+    height:100vh;
 }
 
 .one {
     background-color: aquamarine;
-    flex-direction: row;
-    overflow:y;
-    height:100vh;
 }
 
 .two {
     background-color: cadetblue;
-    flex-direction: row;
-    overflow:y;
-    height:100vh;
 }
 
 .three {
     background-color: goldenrod;
-    flex-direction:column;
-    height:200vh;
-    overflow:y;
+    font-size: 40px;
 }
 
 .four {
     background-color: mediumseagreen;
-    flex-direction: row;
-    overflow:y;
-    height:100vh;
+}
+
+.five {
+    background-color: aquamarine;
+}
+
+.six {
+    background-color: cadetblue;
+}
+
+.seven {
+    background-color: goldenrod;
+}
+
+.eight {
+    background-color: mediumseagreen;
 }
